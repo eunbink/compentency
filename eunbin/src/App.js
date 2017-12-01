@@ -10,13 +10,8 @@ import Nav from './components/Nav/Nav.js'
 
 
 
-
-
-
-
-class App extends Component {
-  render() {
-    return (
+const App = (props) => {
+      return (
       <div>
         <Nav/>
       <HashRouter>
@@ -33,7 +28,7 @@ class App extends Component {
     
     );
   }
-}
+
 
 export default App;
 

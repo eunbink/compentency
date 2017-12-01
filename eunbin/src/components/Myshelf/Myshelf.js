@@ -14,9 +14,6 @@ class Myshelf extends Component {
                         <div>book goes here lists</div>
                         <div>book goes here lists</div>
                     </section>
-                    <footer>
-                        <button>+ADD New Book</button>
-                    </footer>
                 </article>
             </div>
         )
