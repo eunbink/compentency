@@ -15,8 +15,13 @@ article {
     background-color:#c6b38e;
 }
 section {
+    border-radius:10px;
     width:550px;
-    height:100px;
+    height:150px;
     background-color:#FBFFE6;
     margin: 0 auto;
+}
+.detailbutton {
+    width:100px;
+
 }
