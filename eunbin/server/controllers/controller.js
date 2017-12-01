@@ -1,9 +1,9 @@
 module.exports = {
     
     //--------------GET------------------//
-    get_book_detail: (req, res, next) => {    
+    get_book: (req, res, next) => {    
         const db = req.app.get("db")
-        db.get_book_detail()
+        db.get_book()
             .then(response => {
                 // console.log(response);
                 res.status(200).send(response)})

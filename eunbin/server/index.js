@@ -53,7 +53,7 @@ app.get('/auth/logout', ( req, res ) => {
 })
 
 //------------------------ENDPOINTS------------------------------//
-app.get('/api/get_books', controller.get_book_detail);
+app.get('/api/get_book', controller.get_book);
 app.post('/api/add_book', controller.add_book);
 app.put('/api/edit_book', controller.edit_book);
 

@@ -2,7 +2,7 @@ import axios from 'axios';
 
 //------setting initial state----------//
 const initialState = {
-   books:[]
+   books:[],
 }
 
 const GET_BOOKS = "GET_BOOKS";
@@ -12,8 +12,7 @@ const GET_BOOKS = "GET_BOOKS";
 
 //-------actionbuilders------//
 export function getBooks() {
-    let booklists = axios.get('/api/get_books').then(response => {
-        console.log(response.data)
+    let booklists = axios.get('/api/get_book').then(response => {
         return response.data
        
     })
@@ -27,5 +26,7 @@ export default function reducer(state = initialState, action) {
     switch (action.type) {
         case GET_BOOKS + '_FULFILLED':
         return Object.assign({}, state, { books: action.payload })
+        default:
+            return state;
     }
 }
