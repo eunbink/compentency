@@ -12,9 +12,12 @@ import router from './router.js'
 
 
 
+
 class App extends Component {
   render() {
     return (
+      <div>
+        <Nav/>
       <HashRouter>
       <div className="App">
         <Route component={ Login } path='/' exact />        
@@ -23,6 +26,9 @@ class App extends Component {
         <Route component={ Myshelf } path='/myshelf' />
       </div>
       </HashRouter>
+      
+      </div>
+    
     );
   }
 }

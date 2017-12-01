@@ -7,4 +7,4 @@ author =$4,
 genre = $5, 
 description = $6
 
-select * from books
+returning *;

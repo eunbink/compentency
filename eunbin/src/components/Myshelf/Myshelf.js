@@ -6,7 +6,18 @@ class Myshelf extends Component {
     render() {
         return (
             <div className='Myshelf'>
-                hi
+                   <article>
+                    <header>
+                       Browse Inventory
+                    </header>
+                    <section>
+                        <div>book goes here lists</div>
+                        <div>book goes here lists</div>
+                    </section>
+                    <footer>
+                        <button>+ADD New Book</button>
+                    </footer>
+                </article>
             </div>
         )
     }
