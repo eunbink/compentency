@@ -5,8 +5,9 @@ import Login from './components/Login/Login.js';
 import Browse from './components/Browse/Browse.js';
 import Cart from './components/Cart/Cart.js';
 import Myshelf from './components/Myshelf/Myshelf.js';
+import Addbook from './components/Addbook/Addbook.js';
 import Nav from './components/Nav/Nav.js'
-import router from './router.js'
+
 
 
 
@@ -24,6 +25,7 @@ class App extends Component {
         <Route component={ Browse } path='/browse' />
         <Route component={ Cart } path='/cart' /> 
         <Route component={ Myshelf } path='/myshelf' />
+        <Route component={ Addbook } path='/Addbook' />
       </div>
       </HashRouter>
       

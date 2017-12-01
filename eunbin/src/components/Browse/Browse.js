@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './Browse.css';
-import Nav from './../Nav/Nav.js'
 import { connect } from 'react-redux';
 import { getBooks } from './../../ducks/reducer.js';
+import { NavLink } from 'react-router-dom';
 
 class Browse extends Component {
     constructor() {
@@ -42,7 +42,7 @@ class Browse extends Component {
                     </header>
                    {booksDisplayed}
                    <footer>
-                        <button>+ADD New Book</button>
+                   <NavLink activeClassName='active' to='/Addbook'><button >+Add New Book</button></NavLink>
                     </footer>
                 </article>
             </div>

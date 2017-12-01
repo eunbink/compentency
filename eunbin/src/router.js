@@ -4,6 +4,7 @@ import Login from './components/Login/Login.js';
 import Browse from './components/Browse/Browse.js';
 import Cart from './components/Cart/Cart.js';
 import Myshelf from './components/Myshelf/Myshelf.js';
+import Addbook from './components/Addbook/Addbook.js';
 
 
 export default (
@@ -12,5 +13,6 @@ export default (
     <Route component={ Browse } path="/Browse" />
     <Route component={ Cart } path="/cart" />
     <Route component={ Myshelf } path="/myshelf" />
+    <Route component={ Addbook } path="/Addbook" />
   </Switch>
 )
