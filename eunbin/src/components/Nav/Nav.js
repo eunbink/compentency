@@ -7,10 +7,11 @@ class Nav extends Component {
     render() {
         return (
             <div className='Nav'>
-                  <NavLink activeClassName='active' exact to='/'><li></li></NavLink>
-                  <NavLink activeClassName='active' to='/Browse'><li>Browse</li></NavLink>
-                  <NavLink activeClassName='active' to='/Cart'><li>Cart</li></NavLink>
-                  <NavLink activeClassName='active' to='/'><li>MyShelf</li></NavLink>
+                  <NavLink className="navbars"activeClassName='active' to='/Browse'><li>Browse</li></NavLink>
+                  <NavLink className="navbars"activeClassName='active' to='/Cart'><li>Cart</li></NavLink>
+                  <NavLink className="navbars"activeClassName='active' to='/Myshelf'><li>MyShelf</li></NavLink>
+                  {/* <a className="logout"href='/auth/logout' className="active">LOG OUT</a> */}
+                  
             </div>
         )
     }

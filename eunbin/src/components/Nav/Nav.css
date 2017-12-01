@@ -1,0 +1,20 @@
+
+html {
+    background-color:#4e1e29
+}
+.Nav {
+   
+        background-color: #020402;
+        overflow: hidden;
+    
+}
+
+.Nav li {
+    float: left;
+    color: #c6b38e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    list-style-type: none;
+}
