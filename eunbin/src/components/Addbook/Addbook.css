@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+SC');
+
+.addbook-header {
+    color:#4e1e29;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:'Alegreya SC', serif;    
+    text-align: left;
+    margin-left:30px;
+}
+.inputsection {
+    background-color:#242325;
+    height: 450px;
+}
+#left {
+    float:left;
+}
+#right {
+    float:right;
+}
+.inventory {
+    margin-top:10%;
+    margin-left:50%;
+    font-family:'Alegreya SC', serif; 
+    width:270px;
+    height:60px;
+    border: none;
+}
